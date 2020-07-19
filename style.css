@@ -11,18 +11,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+body img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.row.justify-content-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 300px auto 500px;
+#stop {
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
