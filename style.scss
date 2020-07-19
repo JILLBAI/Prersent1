@@ -8,19 +8,11 @@
       background-size: cover;
       background-repeat: no-repeat;
       object-fit: cover;
-      img{
-          width: 900%;
-          height: 100vh;
-        object-fit: cover;
-      }
+      justify-content: center;
     }
-   #logo{
-     margin: 30px;
-   }
    
     #stop{
         padding:0;
-       
     }
    
     

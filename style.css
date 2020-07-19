@@ -11,17 +11,9 @@ body {
   background-repeat: no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-body img {
-  width: 900%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#logo {
-  margin: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #stop {
