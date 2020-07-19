@@ -16,6 +16,10 @@ body {
           justify-content: center;
 }
 
+#logo {
+  margin-bottom: 30px;
+}
+
 #stop {
   padding: 0;
 }
