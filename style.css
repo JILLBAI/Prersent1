@@ -9,13 +9,19 @@ body {
   background: url(./img/signimg/bg1920.png);
   background-size: cover;
   background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body img {
-  width: 100%;
+  width: 900%;
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#logo {
+  margin: 30px;
 }
 
 #stop {

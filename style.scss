@@ -3,19 +3,20 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  
   body{
       background: url(./img/signimg/bg1920.png);
       background-size: cover;
       background-repeat: no-repeat;
+      object-fit: cover;
       img{
-          width: 100%;
+          width: 900%;
           height: 100vh;
         object-fit: cover;
       }
     }
-    
+   #logo{
+     margin: 30px;
+   }
    
     #stop{
         padding:0;
